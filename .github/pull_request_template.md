@@ -16,6 +16,7 @@
 - [ ] Mi rostro y voz son claramente visibles y audibles durante toda la grabación.
 - [ ] Explico con claridad la lógica aplicada en los 4 retos del taller.
 - [ ] Muestro en mi terminal la ejecución exitosa del comando `pnpm test` pasando al 100%.
+- [ ] Video con subtítulos/transcripción adjunta (accesibilidad).
 
 ---
 
