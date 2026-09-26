@@ -4,6 +4,7 @@
   "description": "Evaluación Diagnóstica de Programación Móvil — 3° BGU UETS 2026-2027",
   "main": "index.html",
   "scripts": {
+    "test": "tsx tests/runner.ts",
     "test:all": "tsx tests/runner.ts",
     "start:01": "tsx tests/01_bloque_a.test.ts",
     "start:02": "tsx tests/02_bloque_b.test.ts",

@@ -3,24 +3,21 @@
 
 ---
 
-## ❄️ 0. Setup Diario Anti-Deep Freeze (Obligatorio)
+## 0. Entorno: GitHub Codespaces (sin instalación local)
+
+Todo el trabajo se hace en la nube, desde el navegador:
 
 ```bash
-# 1. Configurar tu identidad exacta de GitHub:
-git config --global user.name "TU_USUARIO_GITHUB"
-git config --global user.email "tu_correo_registrado@ejemplo.com"
+# 1. Fork del repositorio oficial a tu cuenta (botón Fork en GitHub).
+# 2. En tu fork: Code → Codespaces → Create codespace on main.
+# 3. En la terminal del Codespace, instalar dependencias:
+pnpm install
 
-# 2. Instalar pnpm de forma global si el sistema se reinició:
-npm install -g pnpm
-
-# 3. Comprobar versiones de herramientas (Health Check):
+# 4. Comprobar versiones de herramientas (Health Check):
 node -v    # Node 20+ o 22+ LTS
 git --version
 pnpm -v
 javac --version # JDK 21+
-
-# 4. Instalar dependencias del proyecto tras clonar:
-pnpm install
 ```
 
 ---
@@ -44,7 +41,7 @@ pnpm run check
 
 ---
 
-## 🚀 2. Flujo Git Paso a Paso & Conventional Commits
+## 🚀 2. Flujo Git en Codespaces & Conventional Commits
 
 ```bash
 # 1. Crear tu rama personal antes de empezar:
@@ -59,13 +56,16 @@ git commit -m "fix(bloque-d): depurar calculadora y completar reporte de bugs"
 
 # 3. Subir tu rama a tu fork en GitHub:
 git push origin entrega/nombre-apellido
+
+# 4. Abrir el Pull Request desde Codespaces (extensión GitHub o web)
+#    contra main del repositorio oficial.
 ```
 
 > [!WARNING]
 > **⚠️ Regla Crítica de Rama para el Pull Request:**  
 > Compara siempre:  
-> - **base repository:** `UETS-Programacion-Movil/01-diagnostica` · **base:** `main`  
-> - **head repository:** `TU_USUARIO/01-diagnostica` · **compare:** `entrega/nombre-apellido`
+> - **base repository:** `UETS-Programacion-Movil/01-est-diagnostica-pm` · **base:** `main`  
+> - **head repository:** `TU_USUARIO/01-est-diagnostica-pm` · **compare:** `entrega/nombre-apellido`
 
 > [!TIP]
 > **💡 Entrega Parcial Salesiana: ¡Nunca te quedes con 0!**  
